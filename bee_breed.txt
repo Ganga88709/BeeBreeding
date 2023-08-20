@@ -1,0 +1,128 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{default}     
+  \usecolortheme{default} 
+  \usefonttheme{default}  
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\title[Your Short Title]{\textbf{\Huge BEE BREEDING}}
+\author{\textbf{BATCH--28}\newline\newline
+T.L.Gangothri 21B01A05H8 CSE\newline
+Md.Akhila 21B01A12B2 IT\newline
+Md.Sheema 21B01A12B3 IT\newline
+N.Neha 21B01A05B3 CSE}
+
+\institute{\Large Shri Vishnu Engineering College for Women}
+\date{FEBRUARY 10,2023}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{\huge\textbf{Introduction}}
+
+\vspace*{-\baselineskip}
+\textcolor{blue}{\Large Problem Statement}
+\begin{itemize}
+\item The bees have difficulty breeding in captivity and Professor Heif wants to quantify the difference in maggot placement.\\[\baselineskip]
+\item The task is to write a program that computes the distance between any pair of cells in the honeycomb, defined as the number of cells in the shortest path between them. 
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{figure}
+\includegraphics[width = 1.\textwidth]{bee12.png}
+\caption{\label{fig : honeycomb}Honeycomb}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{\huge \textbf{Approach}}
+
+\begin{itemize}
+  \item Create a Grid of Hexagonal cells.\\[\baselineskip]
+  \item The grid is created by starting at the center cell (0, 0, 0) and iterating outwards in concentric rings.\\[\baselineskip]
+  \item Iterating through a list of coordinates and adding them to the current coordinates.\\[\baselineskip]
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}{\huge \textbf{Learnings}}
+
+\begin{itemize}
+\item We learnt how to create a grid of hexagonal cells with a given radius.\\[\baselineskip]
+\item We came to know about Manhattan distance to calculate the shortest distance between two cells.\\[\baselineskip]
+\item We learnt how to use a dictionary to store the coordinates of each cell in the grid.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{\huge \textbf{Challenges}}
+
+\begin{itemize}
+\item Understanding the hexagonal coordinate system.
+\item Input validation.
+\item Determining the correct radius to generate grid.
+\item Debugging and troubleshooting.\\[\baselineskip]
+\end{itemize}
+
+\textcolor{blue}{\Large {Solutions}}\\
+[\baselineskip]
+\begin{itemize}
+ \item We have resolved this issue by utilizing a coordinate system and storing the information in a dictionary.
+ \item We overcame the input validation problem using conditional statements.
+\end{itemize}
+ 
+\end{frame}
+
+\begin{frame}{\huge \textbf{Statistics}}
+
+\begin{itemize}
+\item The solution for this problem has 34 Lines of code\\[\baselineskip]
+    \item The code has two user-defined functions.\\They  are:\\
+    \hspace{0.8cm}1.numberOfMoves()\\
+    \hspace{0.8cm}2.honeyComb\\
+    \item The code has one built-in function.\\That is:\\
+    \hspace{0.8cm}1.abs()\\
+[\baselineskip]
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{\huge \textbf{Demo}}
+
+\begin{figure}
+\includegraphics[width = 1.0\textwidth]{Code21.png}
+\caption{\label{code}code}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{figure}
+\includegraphics[width = 1.0\textwidth]{output1.png}
+\caption{\label{output}Output}
+\end{figure}
+
+\end{frame}
+\begin{frame}
+\center\Huge\textbf {THANK YOU}
+\end{frame}
+
+\end{document}
